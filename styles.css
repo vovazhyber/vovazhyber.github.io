@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+body {color: #555;
+margin: 0;
+font-family: 'montserrat',sans-serif;
+}
+#заглавие {background-color: #1abc9c;
+  height: 150px;
+line-height: 150px;}
+#header-title {
+  display: block;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+#header-nav {
+  display:block;
+  float:right;
+  margin-top: 0;
+}
+#header-nav li {display:inline;
+padding-left: 20px;}
+.контейнер {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+#заглавие a{color: white;
+text-decoration: none;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+}
+#заглавие a:hover{
+  color:#222;
+}
+#низ {
+  background-color: #2f2f2f;
+  padding: 100px 0;
+}
+.колонка {min-width: 300px;
+display: inline-block;
+vertical-align: top;
+}
+#низ h4 {color: white;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+}
+#низ p{color:white;
+}
+a{color: #1abc9c;
+text-decotation: none;
+}
+#низ a:hover {color: #f6a623;
+}
+.пост, .Про {max-width: 800px;
+margin: 0 auto;
+padding: 60px 0;
+}
+.автор img{
+  width: 80px;
+  height: 60px;
+  vertical-align: middle;
+}
+.name {
+  margin-left: 16px;
+}
+.Дата {color: #d2d2d2;
+font-size: 14px;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+}
+h1, h2, h3, h4 {color: #333;
+}
+p {line-height: 1.5;}
+.
+.Про {text-align: center;}
+.автор img,
+.Про img {border-radius: 50%;}
+.пост {background-color: #808080;}
